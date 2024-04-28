@@ -1,0 +1,26 @@
+.Form{
+    height: 364px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 12px;  
+}
+.little{
+    background:linear-gradient(magenta,blue,green,red) ;
+    padding: 22px;
+    width: 343px;
+}
+input:hover{
+    transform:skew(12deg);
+    cursor: pointer;
+}
+h1{
+    background: linear-gradient(red,orange,blue,black);
+    background-size: cover;
+    background-clip:text ;
+    color: transparent;
+}
+.Form:hover{
+    transform: rotate(53deg);
+}
